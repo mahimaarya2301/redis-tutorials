@@ -14,3 +14,5 @@ mget key key key
 
 ttl key
 
+flushall
+
