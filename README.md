@@ -16,3 +16,7 @@ ttl key
 
 flushall
 
+set key value
+
+expire key second
+
