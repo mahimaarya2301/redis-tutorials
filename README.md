@@ -9,8 +9,8 @@ keys *
 del key
 
 mset key value key value
-mget key key key
 
+mget key key key
 
 ttl key
 
