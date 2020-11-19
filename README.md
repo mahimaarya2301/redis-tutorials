@@ -40,3 +40,7 @@ decrby key value
 psetex key milliseconds value
 
 append key value
+
+strlen key
+
+msetnx key value [key value ...] 
