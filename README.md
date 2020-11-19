@@ -27,3 +27,16 @@ setex name2 40 "Vikki"
 setnx key value
 
 setnx name "Sunil"
+
+
+incr key
+
+decr key
+
+incrby key value
+
+decrby key value
+
+psetex key milliseconds value
+
+append key value
