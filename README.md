@@ -29,6 +29,7 @@ setnx key value
 setnx name "Sunil"
 
 
+
 incr key
 
 decr key
@@ -44,3 +45,22 @@ append key value
 strlen key
 
 msetnx key value [key value ...] 
+
+
+ hset key field value  
+ 
+ hget key field  
+ 
+ hmset key field value [field value ...]
+ 
+ hmget key field [field ...]
+ 
+ hgetall key 
+ 
+ hlen key 
+ 
+ hstrlen key field  
+ 
+ hkeys key 
+ 
+ hvals key 
