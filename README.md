@@ -64,3 +64,5 @@ msetnx key value [key value ...]
  hkeys key 
  
  hvals key 
+
+ hdel key field [field ...]
