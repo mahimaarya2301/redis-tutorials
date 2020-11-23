@@ -71,6 +71,18 @@ hsetnx key field value
 
 hexists key field 
 
- hincrby key field increment 
+hincrby key field increment 
  
- hincrbyfloat key field increment  
+hincrbyfloat key field increment  
+
+lpush key value [value ...]
+
+rpush key value [value ...] 
+
+lpop key 
+
+rpop key
+
+llen key
+
+linsert key BEFORE|AFTER pivot value
