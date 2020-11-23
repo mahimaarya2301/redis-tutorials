@@ -66,3 +66,11 @@ msetnx key value [key value ...]
  hvals key 
 
  hdel key field [field ...]
+
+hsetnx key field value
+
+hexists key field 
+
+ hincrby key field increment 
+ 
+ hincrbyfloat key field increment  
