@@ -108,3 +108,5 @@ sdiffstore destination key [key ...]
 sinterstore destination key [key ...]
 
 sunionstore destination key [key ...]
+
+sismember key member
