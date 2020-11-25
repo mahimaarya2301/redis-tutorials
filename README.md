@@ -1,5 +1,6 @@
 # redis-tutorials
 redis-tutorials
+
 set key value
 
 get key value
@@ -110,3 +111,23 @@ sinterstore destination key [key ...]
 sunionstore destination key [key ...]
 
 sismember key member
+
+zadd key score member
+
+zcard key 
+
+zcount key min max 
+
+zrange key start stop
+
+zrange key start stop [WITHSCORES] 
+
+zrem key member [member ...] 
+
+zrank key member 
+
+zrevrank key member
+
+zrangebyscore key min max
+
+zrangebyscore key min max [WITHSCORES]
